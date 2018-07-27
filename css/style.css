@@ -1,0 +1,89 @@
+body, h1, h2, h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h3
+{
+  margin-top: 5px;
+}
+
+/* The Modal (background) */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #0D4F8B;
+}
+
+
+
+/* Modal Content */
+
+.modal-content {
+  margin: 0 auto auto;
+  background-color: #ddffdd;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 10px;
+  width: 70%;
+  max-width: 600px;
+  height: 50%;
+  text-align: center;
+
+}
+
+.modal-heading {
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+.modal-heading-two {
+  margin-top: 5px;
+  font-size: 2em;
+}
+
+.modal-reset {
+  text-align: center;
+  font-size: 2em;
+  cursor: pointer;
+  background-color: #ccc;
+  width: 150px;
+  line-height: 60px;
+  margin: 30px auto;
+  border-radius: 7px;
+}
+
+/* Modal Button */
+
+.modal-button {
+  margin: 25px auto;
+  width: 70%;
+  max-width: 640px;
+  height: 30px;
+}
+
+#close {
+  color: #fff;
+  background-color: transparent;
+  padding: 0;
+  border: 0px;
+  float: right;
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
