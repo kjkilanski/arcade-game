@@ -66,12 +66,15 @@ There were several resources I used to complete this project. The most notable a
 
 To get started, I consulted several projects for inspiration and to understand how to start. These include the following:
 
-1. https://github.com/drmumford/frontend-nanodegree-arcade-game/blob/master/js/app.js // this is an amazing project!
-2. https://github.com/bcko/Ud-FE-Frogger-JS/blob/master/js/app.js // upgrade from the most basic, good place for initial exspanion ideas
-3. https://github.com/brenopolanski/udacity-classic-arcade-game-clone/blob/master/js/app.js // most basic, place to start at a basic level
+1. https://github.com/drmumford/frontend-nanodegree-arcade-game/blob/master/js/app.js <br/>
+   This is an amazing project! Lots of great ideas on where to go after getting something basic started.
+2. https://github.com/bcko/Ud-FE-Frogger-JS/blob/master/js/app.js <br/>
+   Upgrade from the most basic, good place for initial expansion ideas.
+3. https://github.com/brenopolanski/udacity-classic-arcade-game-clone/blob/master/js/app.js <br/>
+   Most basic, place to start at a basic level and get an idea on how to start without complex distractions.
 
 
-If you compare my project to any of these, you will quickly see the departure from the most basic and the inspiration for some of the more complex structures.
+If you compare my project to any of these, you will quickly see the departure from the most basic and the inspiration for some of the more complex structures. If you decide to use any portion of my code, even to modify, please add the attribution. 
 
 ## How to Improve
 
