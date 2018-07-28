@@ -28,7 +28,13 @@ The game has been styled to play on desktop computers only at this time.
 
 ## To-Do List
 
-In the future, additional functionality will be added including different levels, scoring options, collecting gems, number of lives before the game quits, more obstacles, and responsive design to play on mobile devices.
+In the future, additional functionality will be added including the following:
+1. Different levels
+2. Scoring
+3. Collecting gems for points
+4. Number of lives and collecting lives
+5. More obstacles
+6. Responsive design to play on mobile devices
 
 ## Code Adaptations
 
@@ -70,7 +76,7 @@ If you compare my project to any of these, you will quickly see the departure fr
 ## How to Improve
 
 There is a lot that can be improved in my project.
-1. The data structure is haphazard - Much of this is related to lack of planning, experience, and what I call 'quicksand knowledge'<br/>
-   To overcome this, more experience and testing/stretching my knowledge is necessary
-2. The use of super classes will help with organizing data
-3. Having a better idea of the features I want to add and making a plan for adding them
+1. The data structure is haphazard - Much of this is related to lack of planning, experience, and what I call 'quicksand knowledge'.<br/>
+   To overcome this, more experience and testing/stretching my knowledge is necessary.
+2. The use of super classes will help with organizing data.
+3. Having a better idea of the features I want to add and making a plan for adding them before I add them.
