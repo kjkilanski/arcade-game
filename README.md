@@ -67,7 +67,7 @@ There were several resources I used to complete this project. The most notable a
 To get started, I consulted several projects for inspiration and to understand how to start. These include the following:
 
 1. https://github.com/drmumford/frontend-nanodegree-arcade-game/blob/master/js/app.js // this is an amazing project!
-2. https://github.com/bcko/Ud-FE-Frogger-JS/blob/master/js/app.js // upgrade from the most, good place for ideas
+2. https://github.com/bcko/Ud-FE-Frogger-JS/blob/master/js/app.js // upgrade from the most basic, good place for initial exspanion ideas
 3. https://github.com/brenopolanski/udacity-classic-arcade-game-clone/blob/master/js/app.js // most basic, place to start at a basic level
 
 
