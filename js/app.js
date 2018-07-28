@@ -180,7 +180,7 @@ Player.prototype.handleInput = function(keyInput) {
     case 'up':
       if ((this.z == true) || ((this.y - 83 == block.y) && (this.x == block.x))) {
         this.y = this.y;
-      } else if (player.z == false){
+      } else if (this.z == false){
         this.y -= 83;
       }
       break;
