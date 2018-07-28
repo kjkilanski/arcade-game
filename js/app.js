@@ -53,7 +53,7 @@ Enemy.prototype.render = function() {
 
 // Reset enemy speed if win
 Enemy.prototype.gameWin = function() {
-this.speed = 0;
+  this.speed = 0;
 
 }
 
@@ -104,10 +104,11 @@ Rock.prototype.update = function() {
 
 }
 
+// Random integer for obstacle placement
 Rock.prototype.getRandomInt = function(max, min) {
   return Math.floor(Math.random() * (Math.floor(max) - Math.floor(min)));
 }
-//  Draw obstacles on the screen
+// Draw obstacles on the screen
 Rock.prototype.render = function() {
   ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
 
@@ -125,6 +126,7 @@ var Player = function (x, y) {
 
 }
 
+// Add the player to the game
 Player.prototype.render = function() {
   ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
 
@@ -200,7 +202,7 @@ Player.prototype.pauseGame = function() {
     if (allEnemies.hasOwnProperty(mem)) {
       bug = allEnemies[mem];
     }
-    // check enemy speed to determine start/paused conditions
+    // Check enemy speed to determine start/paused conditions
     if (bug.speed == 0) {
       bug.speed = 50 + Math.floor(Math.random() * 150);
       this.z = false;
@@ -219,6 +221,7 @@ Player.prototype.gameWin = function() {
 
 }
 
+// Show modal == true
 Player.prototype.modal = function() {
 
   const modal = document.querySelector('.modal');
@@ -236,6 +239,7 @@ Player.prototype.modal = function() {
 
 }
 
+// Show modal == false
 Player.prototype.setModal = function() {
   this.showModal = false;
 
