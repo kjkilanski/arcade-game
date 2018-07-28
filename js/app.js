@@ -6,7 +6,7 @@ var Enemy = function(y) {
   this.y = y;
   this.speed = 0;
   if (this.y == 228) {
-  this.x = 303;
+    this.x = 303;
   } else {
     this.x = 50 + Math.floor(Math.random() * 400);
   }
@@ -143,7 +143,7 @@ Player.prototype.update = function() {
     this.x = 0;
   }
   if (this.x > 505) {
-  this.x = 505;
+    this.x = 505;
   }
   if (this.y > 384) {
     this.y = 384;
@@ -187,8 +187,6 @@ Player.prototype.handleInput = function(keyInput) {
     case 'pause':
       if (this.showModal == false) {
         this.pauseGame();
-      } else if (this.showModal == true) {
-
       }
       break;
   }
@@ -239,7 +237,7 @@ Player.prototype.modal = function() {
 }
 
 Player.prototype.setModal = function() {
-this.showModal = false;
+  this.showModal = false;
 
 }
 
@@ -257,13 +255,12 @@ document.addEventListener('keyup', function(e) {
     40: 'down',
     32: 'pause',
   };
-    player.handleInput(allowedKeys[e.keyCode]);
+  player.handleInput(allowedKeys[e.keyCode]);
 
 })
-Player.prototype.closeModal = function() {
 
-}
 document.querySelector('.reset-me').addEventListener('click', function() {
-modal.style.display = 'none';
-player.setModal();
+  modal.style.display = 'none';
+  player.setModal();
+
 })
